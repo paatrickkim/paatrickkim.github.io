@@ -1,12 +1,7 @@
-#content{
-   color:navy;
-}
 #img {
   height: 10px;
 }
-#intro{
-  color:black;
-}
-#aboutme{
-  color:navy;
+
+.container{
+  margin:50px;
 }

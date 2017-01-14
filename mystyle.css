@@ -1,6 +1,12 @@
 #content{
-   color:orange;
+   color:navy;
 }
-img {
+#img {
   height: 200px;
+}
+#intro{
+  color:white;
+}
+#aboutme{
+  color:navy;
 }

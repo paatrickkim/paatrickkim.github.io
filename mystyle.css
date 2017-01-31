@@ -1,9 +1,20 @@
-#img {
-  height: 10px;
+img {
+  height: 185px;
+  border-radius: 25px;
 }
 
 .container{
   margin:50px;
   background-color:lightblue;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.body{
+  background-color:white;
+}
+
+.list{
   text-align:center;
+  list-style-position:inside;
 }

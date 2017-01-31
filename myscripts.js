@@ -23,6 +23,6 @@ function checkAnswer(){
     document.getElementById("results").innerHTML="You're so smart. Correct!"
   }
   else{
-    document.getElementById("results").innerHTML="...incorrect. Check your work!"
+    document.getElementById("results").innerHTML="... incorrect. Check your work!"
   }
 }

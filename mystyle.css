@@ -19,3 +19,16 @@ img {
   text-align:center;
   list-style-position:inside;
 }
+
+a:visited{
+  color:blue;
+}
+
+a:link{
+  color:blue;
+}
+
+a:hover{
+  color:navy;
+  font-weight:bold;
+}

@@ -1,7 +1,10 @@
 function changeColor(){
-  document.getElementById("intro").style.color="red"
-  document.getElementById("content").style.color="white"
-  document.getElementById("aboutme").style.color="white"
+  if(document.getElementById("intro").style.color == "blue"){
+    document.getElementById("intro").style.color="black";
+  }
+  else{
+    document.getElementById("intro").style.color="blue";
+  }
 }
 
 var operand1;
@@ -20,9 +23,9 @@ function checkAnswer(){
   var userSum = document.getElementById("userAnswer").value;
   
   if(sum == userSum){
-    document.getElementById("results").innerHTML="You're so smart. Correct!"
+    document.getElementById("results").innerHTML="Good Job! You Are Correct."
   }
   else{
-    document.getElementById("results").innerHTML="... incorrect. Check your work!"
+    document.getElementById("results").innerHTML="Incorrect. Check Your Work!"
   }
 }

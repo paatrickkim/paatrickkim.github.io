@@ -1,6 +1,12 @@
+/* this is a random comment, take note */
+
 img {
   height: 185px;
   border-radius: 25px;
+}
+
+#gallery img {
+  height: 185px;
 }
 
 .container{

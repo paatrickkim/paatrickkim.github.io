@@ -9,29 +9,6 @@ function changeColor(){
   }
 }
 
-var operand1;
-var operand2;
-
-function getNumbers(){
-  operand1 = Math.floor(Math.random() * 30) + 1;
-  operand2 = Math.floor(Math.random() * 30) + 1;
-  document.getElementById("operand1").innerHTML=operand1;
-  document.getElementById("operand2").innerHTML=operand2;
-  document.getElementById("userAnswer").value="";
-}
-
-function checkAnswer(){
-  var sum = operand1 + operand2;
-  var userSum = document.getElementById("userAnswer").value;
-  
-  if(sum == userSum){
-    document.getElementById("results").innerHTML="Good Job! You Are Correct."
-  }
-  else{
-    document.getElementById("results").innerHTML="Incorrect. Check Your Work!"
-  }
-}
-
 var pics = [
   "https://kidskonnect.com/assets/uploads/2014/12/birds-featured.jpg",
   "http://weknowyourdreams.com/images/bird/bird-02.jpg",
@@ -54,3 +31,25 @@ function goRight(){
   }
 }
 
+var operand1;
+var operand2;
+
+function getNumbers(){
+  operand1 = Math.floor(Math.random() * 30) + 1;
+  operand2 = Math.floor(Math.random() * 30) + 1;
+  document.getElementById("operand1").innerHTML=operand1;
+  document.getElementById("operand2").innerHTML=operand2;
+  document.getElementById("userAnswer").value="";
+}
+
+function checkAnswer(){
+  var sum = operand1 + operand2;
+  var userSum = document.getElementById("userAnswer").value;
+  
+  if(sum == userSum){
+    document.getElementById("results").innerHTML="Good Job! You Are Correct.";
+  }
+  else{
+    document.getElementById("results").innerHTML="Incorrect. Check Your Work!";
+  }
+}

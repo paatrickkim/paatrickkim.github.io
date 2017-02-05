@@ -5,8 +5,13 @@ img {
   border-radius: 25px;
 }
 
-#gallery img {
-  height: 185px;
+#gallery input[type="button"] {
+  background-color:navy;
+  color:white;
+  font-size:bolder;
+  padding: 15px;
+  margin: 4px;
+  border-radius: 25px
 }
 
 .container{

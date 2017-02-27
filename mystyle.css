@@ -13,6 +13,7 @@
 
 #players{
   float:left;
+  
 }
 
 #board{
@@ -82,4 +83,29 @@ a:link{
 a:hover{
   color:navy;
   font-weight:bold;
+}
+
+#HangManWord {
+  font-size: 75px;
+}
+
+.A-JRow {
+  width: 100px;
+  float: left;
+}
+
+.K-SRow {
+  width: 100px;
+  height: 50px;
+  float: left;
+}
+
+.T-ZRow {
+  width: 100px;
+  height: 50px;
+  float: left;
+}
+
+#hangmanGame{
+ height:500px; 
 }
